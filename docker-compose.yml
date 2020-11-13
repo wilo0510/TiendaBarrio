@@ -1,12 +1,17 @@
-version: '2'
+version: '3.8'
 services:
     mysql_database:
         container_name: mysqlUsuarios
         image: mysql
         command: --default-authentication-plugin=mysql_native_password
         restart: always
+        ports: 
+            - "3306:3306"
         environment:
-            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: "db_usuarios"
+            MYSQL_ROOT_PASSWORD: "root"
+        volumes: 
+            - mysqldata:/var/lib/mysql
     nginx:
         image: nginx:alpine
         volumes:
@@ -19,6 +24,13 @@ services:
             - "8080:80"
     usuarios:
         build: ./usuarios
+        volumes: 
+            - ./usuarios:/usr/src/app
 
     inventarios:
         build: ./inventarios
+        volumes: 
+            - ./inventarios:/usr/src/app
+
+volumes: 
+    mysqldata:

@@ -6,7 +6,7 @@ app = Flask(__name__)
 class DataBase:
     def __init__(self):
         self.connection = pymysql.connect(
-            host = 'localhost',
+            host = 'mysql_database',
             user = 'root',
             password = 'root',
             db = 'db_usuarios'
@@ -14,10 +14,11 @@ class DataBase:
         self.cursor = self.connection.cursor()
     
     def select_user(self, id):
-        sql = 'SELECT id,name,email from usuario where id = {}'.format(id)
+        sql = 'SELECT * from usuario where id = {}'.format(id)
         try:
             self.cursor.execute(sql)
             user = self.cursor.fetchone()
+            return user
         except Exception as e:
             raise
     
@@ -32,7 +33,13 @@ class DataBase:
 
 @app.route("/usuarios")
 def listUsers():
-    return str("HOLA")
+    db = DataBase()
+    return str(db.select_all_user())
+
+@app.route("/usuarios/<int:pk>")
+def getUser(pk):
+    db = DataBase()
+    return str(db.select_user(pk))
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0',debug=True)
