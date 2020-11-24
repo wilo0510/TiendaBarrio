@@ -14,9 +14,9 @@
 <h2>Cooperación de aplicacion</h2>
 <img src="img/Cooperacion de aplicacion.png" alt="">
 <h2>Cooperación de proceso de negocio</h2>
-<img src="img/Cooperacion de proceso de negocio.png.png" alt="">
+<img src="img/Cooperacion de proceso de negocio.png" alt="">
 <h2>Estructura de aplicaciones</h2>
-<img src=" img/Estructura de aplicaciones.png" alt="">
+<img src="img/Estructura de aplicaciones.png" alt="">
 <h2>Estructura de información</h2>
 <img src="img/Estructura de informacion.png" alt="">
 <h2>funciones del negocio</h2>
