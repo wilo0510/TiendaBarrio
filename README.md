@@ -6,13 +6,13 @@
 <h2>
     Actor - cooperación
 </h2>
-<img src="actor-cooperacion.png" alt="">
+<img src="img/actor-cooperacion.png" alt="">
 <h2>Aplicaciones</h2>
-<img src="Aplicaciones.png" alt="">
+<img src="img/Aplicaciones.png" alt="">
 <h2>Contribución de objetivos</h2>
-<img src="Contribucion de objetivos.png" alt="">
+<img src="img/Contribucion de objetivos.png" alt="">
 <h2>Cooperación de aplicacion</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/Cooperacion de aplicacion.png" alt="">
 <h2>Cooperación de proceso de negocio</h2>
 <img src="Cooperacion de p.png" alt="">
 <h2>Estructura de aplicaciones</h2>
