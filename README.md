@@ -14,32 +14,32 @@
 <h2>Cooperación de aplicacion</h2>
 <img src="img/Cooperacion de aplicacion.png" alt="">
 <h2>Cooperación de proceso de negocio</h2>
-<img src="Cooperacion de p.png" alt="">
+<img src="img/Cooperacion de proceso de negocio.png.png" alt="">
 <h2>Estructura de aplicaciones</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src=" img/Estructura de aplicaciones.png" alt="">
 <h2>Estructura de información</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/Estructura de informacion.png" alt="">
 <h2>funciones del negocio</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/funciones del negocio.png" alt="">
 <h2>Infraestructura</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/Infraestructura.jpeg" alt="">
 <h2>Microservicios</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/Microservicios.png" alt="">
 <h2>Motivación</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/Motivación.png" alt="">
 <h2>Organización</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/organizacion.png" alt="">
 <h2>Procesos de negocio</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/Procesos de negocio.png" alt="">
 <h2>Producto</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/Producto.png" alt="">
 <h2>Realizacion de requerimientos</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/Realizacion de requerimientos.png" alt="">
 <h2>Realizacion del servicio</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/Realizacion del servicio.png" alt="">
 <h2>Resumen por capas</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/Resumen por capas.png" alt="">
 <h2>Uso de aplicacion</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/Uso de aplicacion.png" alt="">
 <h2>Uso de Infraestructura</h2>
-<img src="Cooperacion de aplicacion.png" alt="">
+<img src="img/Uso de infraestructura.png " alt="">
