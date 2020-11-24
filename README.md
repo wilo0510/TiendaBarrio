@@ -1,4 +1,4 @@
-# TiendaBarrio
+<h2>Tienda de barrio</h2>
 <h1>Integrantes</h1>
 <h3>Juan Camilo Guaba  </h3>
 <h3>Wilmer Ricardo Pachón</h3>
