@@ -9,6 +9,7 @@ class DataBase:
             host = 'mysql_database',
             user = 'root',
             password = 'root',
+            port    = 3306,
             db = 'db_usuarios'
         )
         self.cursor = self.connection.cursor()
@@ -28,7 +29,7 @@ class DataBase:
             self.cursor.execute(sql)
             users = self.cursor.fetchall()
             return users
-        except expression as identifier:
+        except Exception as identifier:
             pass
 
 @app.route("/usuarios")

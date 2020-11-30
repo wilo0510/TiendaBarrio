@@ -10,8 +10,9 @@ services:
         environment:
             MYSQL_DATABASE: "db_usuarios"
             MYSQL_ROOT_PASSWORD: "root"
-        volumes: 
-            - mysqldata:/var/lib/mysql
+        volumes:
+            - ./initdb.sql:/docker-entrypoint-initdb.d/initdb.sql 
+            # - mysqldata:/var/lib/mysql
     nginx:
         image: nginx:alpine
         volumes:
