@@ -20,6 +20,7 @@ services:
         links:
             - usuarios
             - inventarios
+            - pedidos
         ports:
             - "8080:80"
     usuarios:
@@ -31,6 +32,11 @@ services:
         build: ./inventarios
         volumes: 
             - ./inventarios:/usr/src/app
+    
+    pedidos:
+        build: ./pedidos
+        volumes: 
+            - ./pedidos:/usr/src/app
 
 volumes: 
     mysqldata:

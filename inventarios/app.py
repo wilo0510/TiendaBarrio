@@ -23,13 +23,14 @@ class DataBase:
             raise
     
     def select_all_product(self):
-        sql = 'SELECT idProducto,ubicacion from inventario'
+        sql = 'select * from inventario'
         try:
             self.cursor.execute(sql)
             prods = self.cursor.fetchall()
             return prods
-        except expression as identifier:
-            pass
+        except Exception as e:
+            print(e)
+            raise
 
 @app.route("/inventarios")
 def listProducts():
